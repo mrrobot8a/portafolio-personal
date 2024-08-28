@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
-    <link href="code/css/normalize.css" rel="stylesheet"> 
+    <link href="code/css/normalize.css" rel="stylesheet">
     <link rel="preload" href="code/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet" href="code/css/index.css">
@@ -23,9 +23,9 @@
 </head>
 
 <body>
-    <header>
-
-    </header>
+    <div class="background">
+      <canvas style="position: absolute; z-index: -1; " id="2dcanvas"></canvas>
+    </div>
     <main>
         <aside class="sidebar ">
             <div class="sidebar-info">
@@ -111,7 +111,7 @@
 
 
         </aside>
-      
+
         <article class="about active" data-page="about" id="about">
             <nav class="navbar">
                 <ul class="navbar__list">
@@ -165,7 +165,7 @@
                 <h2 class="title-service no-margin">
                     What i'm doing
                 </h2>
-                <div class="list-cardSerive">                                                                           
+                <div class="list-cardSerive">
                     <div class="card-service-item">
                         <figure class="card-service-item__image no-margin">
                             <img src="code/images/icon-design.svg" alt="web development">
@@ -313,8 +313,6 @@
 
 
         </article>
-
-
     </main>
     <foote class="footer">
         <nav>

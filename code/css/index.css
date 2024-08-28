@@ -1,6 +1,7 @@
 :root {
     --fontHeading: 'PT Sans', sans-serif;
     --Paragraphs_source: 'Open Sans', sans-serif;
+    --backgroundColor: rgb(15, 23, 42);
     --primario: #784D3C;
     --gris: #7d7d7d92;
     --blanco: #ffffff;
@@ -71,15 +72,46 @@ body {
     font-size: 1.6rem;
     line-height: 2;
     background: var(--smoky-black);
+    
 
 }
 
+.background #2dcanvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+    
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+
+
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#2dcanvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 main {
     margin: 15px 12px;
     margin-bottom: 15px;
     margin-bottom: 75px;
     min-width: 259px;
 }
+
 
 a {
     text-decoration: none;
