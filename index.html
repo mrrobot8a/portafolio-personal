@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+
+    <link rel="preload" href="code/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="code/css/index.css">
+    </noscript>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    </Link>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <aside class="sidebar ">
+            <div class="sidebar-info">
+                <figure class="no-margin sidebar-info__avatar">
+                    <img src="code/images/my-avatar.png" alt="foto de perfil">
+                </figure>
+
+                <!-- <span>Show Contacts</span> -->
+                <div class="sidebar-info__info">
+                    <h2 class="no-margin">jhon anderson
+                        peralta ochoa </h2>
+                    <p class="no-margin">Ingeniero de sistemas</p>
+                </div>
+                <button class="sidebar-info__btn">
+                    <ion-icon name="chevron-down" role="img" class="md hydrated" aria-label="chevron down"></ion-icon>
+                    <span>show contacts</span>
+                </button>
+            </div>
+            <hr>
+            <div class="sidebar-moreinfo">
+                <ul class="no-margin no-padding contact-list"> <!-- 
+                    ul = lista no ordenada
+                    ol = orden list
+                    li = list item -->
+                    <li class="no-margin contact-item"> <!--  list item -->
+                        <div class="contact-item__icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="contact-item__box-data">
+                            <h3 class="no-margin">Email</h3>
+                            <p class="no-margin">devjhonperalta8a@gmail.com
+                        </div>
+
+                    </li>
+                    <li class="no-margin  contact-item">
+                        <div class="contact-item__icon-box">
+                            <ion-icon name="call-outline"></ion-icon>
+                        </div>
+                        <div class="contact-item__box-data">
+                            <h3 class="no-margin">phone</h3>
+                            <p class="no-margin">301 381 6092
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="contact-item__icon-box">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </div>
+                        <div class="contact-item__box-data">
+                            <h3 class="no-margin">github</h3>
+                            <p class="no-margin">jhonperalta
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="contact-item__icon-box">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </div>
+                        <div class="contact-item__box-data">
+                            <h3 class="no-margin">location</h3>
+                            <p class="no-margin address">Bogota D.C. - Valledupar, Colombia
+                        </div>
+                    </li>
+                </ul>
+                <hr>
+                <div class="sidebar-social no-margin">
+                    <a href="https://www.facebook.com/jhonanderson.peraltaochoa" target="_blank">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="https://www.instagram.com/jhonperalta8a/" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="https://twitter.com/jhonperalta8a" target="_blank">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jhon-anderson-peralta-ochoa-8a8a8a1b4/" target="_blank">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </div>
+                <div class="sidebar-footer">
+                    <p class="no-margin">jhon anderson peralta ochoa</p>
+                    <p class="no-margin">© 2024</p>
+                </div>
+            </div>
+
+
+        </aside>
+      
+        <article class="about active" data-page="about" id="about">
+            <nav class="navbar">
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <button class="navbar__link nav-active active">
+                            About
+                        </button>
+                    </li>
+                    <li class="navbar__item">
+                        <button class="navbar__link active">
+                            Resume
+                        </button>
+                    </li>
+                    <li class="navbar__item">
+                        <button class="navbar__link active">
+                            Portafolio
+                        </button>
+                    </li>
+                    <li class="navbar__item">
+                        <button class="navbar__link active">
+                            Blog
+                        </button>
+                    </li>
+                    <li class="navbar__item">
+                        <button class="navbar__link active">
+                            Contact
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+
+            <header>
+                <h2 class="about-title no-margin">About Me</h2>
+                <hr>
+            </header>
+
+            <section class="section-aboutMe">
+                <p class="section-content">
+                    I am a systems engineer with expertise in software and web application development. I am proficient
+                    in programming languages such as Java, JavaScript, PHP, HTML, CSS, and SQL, with experience in
+                    developing web, mobile, and desktop applications, databases, and user interfaces.
+                </p>
+                <p class="section-content">
+                    I am skilled in using development tools like Visual Studio Code, NetBeans, Eclipse, Android Studio,
+                    MySQL, and SQL Server, as well as design tools like Adobe Photoshop, Illustrator, and XD. I also
+                    have experience with project management tools like Trello and Jira, version control systems like Git
+                    and GitHub, and team collaboration tools like Microsoft Teams and Slack.
+                </p>
+            </section>
+            <section class="services">
+                <h2 class="title-service no-margin">
+                    What i'm doing
+                </h2>
+                <div class="list-cardSerive">                                                                           
+                    <div class="card-service-item">
+                        <figure class="card-service-item__image no-margin">
+                            <img src="code/images/icon-design.svg" alt="web development">
+                        </figure>
+                        <div class="cardService-info">
+                            <h4 class="no-margin card-service-item__title">Web Desing</h4>
+                            <p class="no-margin card-service-item__text">
+                                The most modern and high-quality design made at
+                                a
+                                professional level</p>
+                        </div>
+                    </div>
+                    <div class="card-service-item">
+                        <figure class="card-service-item__image no-margin">
+                            <img src="code/images/icon-design.svg" alt="web development">
+                        </figure>
+                        <div class="cardService-info">
+                            <h4 class="no-margin card-service-item__title">Web Desing</h4>
+                            <p class="no-margin card-service-item__text">
+                                The most modern and high-quality design made at
+                                a
+                                professional level</p>
+                        </div>
+                    </div>
+
+                    <div class="card-service-item">
+                        <figure class="card-service-item__image no-margin">
+                            <img src="code/images/icon-design.svg" alt="web development">
+                        </figure>
+                        <div class="cardService-info">
+                            <h4 class="no-margin card-service-item__title">Web Desing</h4>
+                            <p class="no-margin card-service-item__text">
+                                The most modern and high-quality design made at
+                                a
+                                professional level</p>
+                        </div>
+                    </div>
+                    <div class="card-service-item">
+                        <figure class="card-service-item__image no-margin">
+                            <img src="code/images/icon-design.svg" alt="web development">
+                        </figure>
+                        <div class="cardService-info">
+                            <h4 class="no-margin card-service-item__title">Web Desing</h4>
+                            <p class="no-margin card-service-item__text">
+                                The most modern and high-quality design made at
+                                a
+                                professional level</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="skills">
+
+                <head>
+                    <div class="box-title-skills">
+                        <h2 class="no-margin">Skills</h2>
+                        <hr>
+                    </div>
+                </head>
+                <div class="card-list-skills">
+                    <div class="card-skil-item">
+                        <figure class="no-margin card-skil-item__avatar">
+                            <img src="code/images/iconos/java.png" alt="foto de perfil">
+                        </figure>
+                        <div class="card-skills-text">
+                            <h3>Java</h3>
+                            <p class="no-margin">Java es un lenguaje de programación orientado a objetos que permite
+                                desarrollar una
+                                amplia variedad de aplicaciones, desde sistemas empresariales robustos hasta
+                                aplicaciones móviles en Android, servidores web, y software para dispositivos embebidos.
+                                Su portabilidad, gracias a la máquina virtual Java (JVM), permite ejecutar aplicaciones
+                                en diversas plataformas. Java también se usa para desarrollar herramientas de Big Data,
+                                aplicaciones de inteligencia artificial, y sistemas distribuidos, ofreciendo una gran
+                                flexibilidad y potencia en múltiples áreas tecnológicas.</p>
+                        </div>
+                    </div>
+                    <div class="card-skil-item">
+                        <figure class="no-margin card-skil-item__avatar">
+                            <img src="code/images/iconos/java.png" alt="foto de perfil">
+                        </figure>
+                        <div class="card-skills-text">
+                            <h3>Java</h3>
+                            <p class="no-margin">Java es un lenguaje de programación orientado a objetos que permite
+                                desarrollar una
+                                amplia variedad de aplicaciones, desde sistemas empresariales robustos hasta
+                                aplicaciones móviles en Android, servidores web, y software para dispositivos embebidos.
+                                Su portabilidad, gracias a la máquina virtual Java (JVM), permite ejecutar aplicaciones
+                                en diversas plataformas. Java también se usa para desarrollar herramientas de Big Data,
+                                aplicaciones de inteligencia artificial, y sistemas distribuidos, ofreciendo una gran
+                                flexibilidad y potencia en múltiples áreas tecnológicas.</p>
+                        </div>
+                    </div>
+                    <div class="card-skil-item">
+                        <figure class="no-margin card-skil-item__avatar">
+                            <img src="code/images/iconos/java.png" alt="foto de perfil">
+                        </figure>
+                        <div class="card-skills-text">
+                            <h3>Java</h3>
+                            <p class="no-margin">Java es un lenguaje de programación orientado a objetos que permite
+                                desarrollar una
+                                amplia variedad de aplicaciones, desde sistemas empresariales robustos hasta
+                                aplicaciones móviles en Android, servidores web, y software para dispositivos embebidos.
+                                Su portabilidad, gracias a la máquina virtual Java (JVM), permite ejecutar aplicaciones
+                                en diversas plataformas. Java también se usa para desarrollar herramientas de Big Data,
+                                aplicaciones de inteligencia artificial, y sistemas distribuidos, ofreciendo una gran
+                                flexibilidad y potencia en múltiples áreas tecnológicas.</p>
+                        </div>
+                    </div>
+                    <div class="card-skil-item">
+                        <figure class="no-margin card-skil-item__avatar">
+                            <img src="code/images/iconos/java.png" alt="foto de perfil">
+                        </figure>
+                        <div class="card-skills-text">
+                            <h3>Java</h3>
+                            <p class="no-margin">Java es un lenguaje de programación orientado a objetos que permite
+                                desarrollar una
+                                amplia variedad de aplicaciones, desde sistemas empresariales robustos hasta
+                                aplicaciones móviles en Android, servidores web, y software para dispositivos embebidos.
+                                Su portabilidad, gracias a la máquina virtual Java (JVM), permite ejecutar aplicaciones
+                                en diversas plataformas. Java también se usa para desarrollar herramientas de Big Data,
+                                aplicaciones de inteligencia artificial, y sistemas distribuidos, ofreciendo una gran
+                                flexibilidad y potencia en múltiples áreas tecnológicas.</p>
+                        </div>
+                    </div>
+                    <div class="card-skil-item">
+                        <figure class="no-margin card-skil-item__avatar">
+                            <img src="code/images/iconos/java.png" alt="foto de perfil">
+                        </figure>
+                        <div class="card-skills-text">
+                            <h3>Java</h3>
+                            <p class="no-margin">Java es un lenguaje de programación orientado a objetos que permite
+                                desarrollar una
+                                amplia variedad de aplicaciones, desde sistemas empresariales robustos hasta
+                                aplicaciones móviles en Android, servidores web, y software para dispositivos embebidos.
+                                Su portabilidad, gracias a la máquina virtual Java (JVM), permite ejecutar aplicaciones
+                                en diversas plataformas. Java también se usa para desarrollar herramientas de Big Data,
+                                aplicaciones de inteligencia artificial, y sistemas distribuidos, ofreciendo una gran
+                                flexibilidad y potencia en múltiples áreas tecnológicas.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+        </article>
+
+
+    </main>
+    <foote class="footer">
+        <nav>
+            <a href="#about" class="nav-active">About</a>
+            <a href="#resume">Resume</a>
+            <a href="#portfolio">Portafolio</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </foote>
+
+
+
+
+
+    <!-- custom-js -->
+    <script src="code/js/index.js"></script>
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
